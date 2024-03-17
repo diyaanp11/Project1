@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    border: 2px solid;
+    border-color: aqua;
+    background-color: greenyellow;
+    height: 6rem;
+}
+
+.container{
+    padding: 28px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.navbar{
+    display: flex;
+    gap: 2rem;
+    background-color: black;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.container-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding: 15px;
+}
+
+.box-1{
+    border: 2px solid;
+    border-color: black;
+    background-color: grey;
+    height: 2.5rem; 
+    margin-top:15rem;
+}
+
+.container-2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 1rem;
+}
